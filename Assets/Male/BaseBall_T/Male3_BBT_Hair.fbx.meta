@@ -1,100 +1,281 @@
 fileFormatVersion: 2
 guid: 31bb83affd32cf34797ed0735992da00
-timeCreated: 18446744011573954816
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Ankle_L
-    100002: Ankle_R
-    100004: BackA_M
-    100006: BackB_M
-    100008: Chest_M
-    100010: Cup_L
-    100012: Cup_R
-    100014: Elbow_L
-    100016: Elbow_R
-    100018: Head_M
-    100020: Hip_L
-    100022: Hip_R
-    100024: IndexFinger1_L
-    100026: IndexFinger1_R
-    100028: IndexFinger2_L
-    100030: IndexFinger2_R
-    100032: IndexFinger3_L
-    100034: IndexFinger3_R
-    100036: Knee_L
-    100038: Knee_R
-    100040: Male3_BBallT_Hair
-    100042: //RootNode
-    100044: MiddleToe1_L
-    100046: MiddleToe1_R
-    100048: Neck_M
-    100050: RingFinger1_L
-    100052: RingFinger1_R
-    100054: RingFinger2_L
-    100056: RingFinger2_R
-    100058: RingFinger3_L
-    100060: RingFinger3_R
-    100062: Root_M
-    100064: Scapula_L
-    100066: Scapula_R
-    100068: Shoulder_L
-    100070: Shoulder_R
-    100072: ThumbFinger1_L
-    100074: ThumbFinger1_R
-    100076: ThumbFinger2_L
-    100078: ThumbFinger2_R
-    100080: ThumbFinger3_L
-    100082: ThumbFinger3_R
-    100084: Wrist_L
-    100086: Wrist_R
-    400000: Ankle_L
-    400002: Ankle_R
-    400004: BackA_M
-    400006: BackB_M
-    400008: Chest_M
-    400010: Cup_L
-    400012: Cup_R
-    400014: Elbow_L
-    400016: Elbow_R
-    400018: Head_M
-    400020: Hip_L
-    400022: Hip_R
-    400024: IndexFinger1_L
-    400026: IndexFinger1_R
-    400028: IndexFinger2_L
-    400030: IndexFinger2_R
-    400032: IndexFinger3_L
-    400034: IndexFinger3_R
-    400036: Knee_L
-    400038: Knee_R
-    400040: Male3_BBallT_Hair
-    400042: //RootNode
-    400044: MiddleToe1_L
-    400046: MiddleToe1_R
-    400048: Neck_M
-    400050: RingFinger1_L
-    400052: RingFinger1_R
-    400054: RingFinger2_L
-    400056: RingFinger2_R
-    400058: RingFinger3_L
-    400060: RingFinger3_R
-    400062: Root_M
-    400064: Scapula_L
-    400066: Scapula_R
-    400068: Shoulder_L
-    400070: Shoulder_R
-    400072: ThumbFinger1_L
-    400074: ThumbFinger1_R
-    400076: ThumbFinger2_L
-    400078: ThumbFinger2_R
-    400080: ThumbFinger3_L
-    400082: ThumbFinger3_R
-    400084: Wrist_L
-    400086: Wrist_R
-    4300000: Male3_BBallT_Hair
-    11100000: //RootNode
-    13700000: Male3_BBallT_Hair
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Ankle_L
+  - first:
+      1: 100002
+    second: Ankle_R
+  - first:
+      1: 100004
+    second: BackA_M
+  - first:
+      1: 100006
+    second: BackB_M
+  - first:
+      1: 100008
+    second: Chest_M
+  - first:
+      1: 100010
+    second: Cup_L
+  - first:
+      1: 100012
+    second: Cup_R
+  - first:
+      1: 100014
+    second: Elbow_L
+  - first:
+      1: 100016
+    second: Elbow_R
+  - first:
+      1: 100018
+    second: Head_M
+  - first:
+      1: 100020
+    second: Hip_L
+  - first:
+      1: 100022
+    second: Hip_R
+  - first:
+      1: 100024
+    second: IndexFinger1_L
+  - first:
+      1: 100026
+    second: IndexFinger1_R
+  - first:
+      1: 100028
+    second: IndexFinger2_L
+  - first:
+      1: 100030
+    second: IndexFinger2_R
+  - first:
+      1: 100032
+    second: IndexFinger3_L
+  - first:
+      1: 100034
+    second: IndexFinger3_R
+  - first:
+      1: 100036
+    second: Knee_L
+  - first:
+      1: 100038
+    second: Knee_R
+  - first:
+      1: 100040
+    second: Male3_BBallT_Hair
+  - first:
+      1: 100042
+    second: //RootNode
+  - first:
+      1: 100044
+    second: MiddleToe1_L
+  - first:
+      1: 100046
+    second: MiddleToe1_R
+  - first:
+      1: 100048
+    second: Neck_M
+  - first:
+      1: 100050
+    second: RingFinger1_L
+  - first:
+      1: 100052
+    second: RingFinger1_R
+  - first:
+      1: 100054
+    second: RingFinger2_L
+  - first:
+      1: 100056
+    second: RingFinger2_R
+  - first:
+      1: 100058
+    second: RingFinger3_L
+  - first:
+      1: 100060
+    second: RingFinger3_R
+  - first:
+      1: 100062
+    second: Root_M
+  - first:
+      1: 100064
+    second: Scapula_L
+  - first:
+      1: 100066
+    second: Scapula_R
+  - first:
+      1: 100068
+    second: Shoulder_L
+  - first:
+      1: 100070
+    second: Shoulder_R
+  - first:
+      1: 100072
+    second: ThumbFinger1_L
+  - first:
+      1: 100074
+    second: ThumbFinger1_R
+  - first:
+      1: 100076
+    second: ThumbFinger2_L
+  - first:
+      1: 100078
+    second: ThumbFinger2_R
+  - first:
+      1: 100080
+    second: ThumbFinger3_L
+  - first:
+      1: 100082
+    second: ThumbFinger3_R
+  - first:
+      1: 100084
+    second: Wrist_L
+  - first:
+      1: 100086
+    second: Wrist_R
+  - first:
+      4: 400000
+    second: Ankle_L
+  - first:
+      4: 400002
+    second: Ankle_R
+  - first:
+      4: 400004
+    second: BackA_M
+  - first:
+      4: 400006
+    second: BackB_M
+  - first:
+      4: 400008
+    second: Chest_M
+  - first:
+      4: 400010
+    second: Cup_L
+  - first:
+      4: 400012
+    second: Cup_R
+  - first:
+      4: 400014
+    second: Elbow_L
+  - first:
+      4: 400016
+    second: Elbow_R
+  - first:
+      4: 400018
+    second: Head_M
+  - first:
+      4: 400020
+    second: Hip_L
+  - first:
+      4: 400022
+    second: Hip_R
+  - first:
+      4: 400024
+    second: IndexFinger1_L
+  - first:
+      4: 400026
+    second: IndexFinger1_R
+  - first:
+      4: 400028
+    second: IndexFinger2_L
+  - first:
+      4: 400030
+    second: IndexFinger2_R
+  - first:
+      4: 400032
+    second: IndexFinger3_L
+  - first:
+      4: 400034
+    second: IndexFinger3_R
+  - first:
+      4: 400036
+    second: Knee_L
+  - first:
+      4: 400038
+    second: Knee_R
+  - first:
+      4: 400040
+    second: Male3_BBallT_Hair
+  - first:
+      4: 400042
+    second: //RootNode
+  - first:
+      4: 400044
+    second: MiddleToe1_L
+  - first:
+      4: 400046
+    second: MiddleToe1_R
+  - first:
+      4: 400048
+    second: Neck_M
+  - first:
+      4: 400050
+    second: RingFinger1_L
+  - first:
+      4: 400052
+    second: RingFinger1_R
+  - first:
+      4: 400054
+    second: RingFinger2_L
+  - first:
+      4: 400056
+    second: RingFinger2_R
+  - first:
+      4: 400058
+    second: RingFinger3_L
+  - first:
+      4: 400060
+    second: RingFinger3_R
+  - first:
+      4: 400062
+    second: Root_M
+  - first:
+      4: 400064
+    second: Scapula_L
+  - first:
+      4: 400066
+    second: Scapula_R
+  - first:
+      4: 400068
+    second: Shoulder_L
+  - first:
+      4: 400070
+    second: Shoulder_R
+  - first:
+      4: 400072
+    second: ThumbFinger1_L
+  - first:
+      4: 400074
+    second: ThumbFinger1_R
+  - first:
+      4: 400076
+    second: ThumbFinger2_L
+  - first:
+      4: 400078
+    second: ThumbFinger2_R
+  - first:
+      4: 400080
+    second: ThumbFinger3_L
+  - first:
+      4: 400082
+    second: ThumbFinger3_R
+  - first:
+      4: 400084
+    second: Wrist_L
+  - first:
+      4: 400086
+    second: Wrist_R
+  - first:
+      43: 4300000
+    second: Male3_BBallT_Hair
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Male3_BBallT_Hair
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -107,7 +288,7 @@ ModelImporter:
       name: Male3_Head
     second: {fileID: 2100000, guid: 0f2b2069d25632d4dba01b57cacbc4f5, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -124,6 +305,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -138,17 +320,23 @@ ModelImporter:
     globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -160,10 +348,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 4
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -173,14 +364,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
